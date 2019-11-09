@@ -1,0 +1,2 @@
+# POSMaquetacion
+Proyecto Terminal POS 
