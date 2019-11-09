@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="./styles_cards.css">
+  <link rel="stylesheet" href="./styles_panel.css">
+  <!-- Title -->
+  <title>POS Terminal</title>
+</head>
+<body>
+  
+
+  <section class="panel-group">
+      <div class="panel panel-default">
+      
+          <div class="panel-body">
+           
+             <section class="Products">
+                <div> 
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="bd-placeholder-img card-img-top" src="http://www.baltana.com/imagecache/thumbnails/8441/290x180.png" title="Ice Cream Cake Background Wallpapers 08372" alt="Ice Cream Cake Background Wallpapers 08372" >
+                               
+                            <div class="card-body">
+                                <p class="card-text">Tarjeta Descripción de Producto</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                    <button type="button" class="btn-sm"><img class="btn--img" src="../assets/icons8-checkout-60.png" alt="x" /></button>
+                                   </div>
+                                   <small class="text-muted">Disponible: 1</small>
+                                  <small class="text-muted">$0.00</small>
+                                </div>
+                              </div>
+                        </div>      
+                    </div>
+              
+                </div>
+                
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                      <a href="http://www.baltana.com/food/cheesecake-03406.html">
+                        <img class="bd-placeholder-img card-img-top" src="http://www.baltana.com/imagecache/thumbnails/3485/290x180.png" title="Cheesecake 03406" alt="Cheesecake 03406">
+                      </a>
+        
+                      <div class="card-body">
+                          <p class="card-text">Opciones de Operacion del Producto</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn-sm"><img class="btn--img" src="../assets/icons8-edit-property-60.png" alt="Modificar Producto" /></button>
+                             <button type="button" class="btn-sm"><img class="btn--img" src="../assets/icons8-delete-document-60.png" alt="Eliminar Producto" /></button>
+                             </div>
+                            <small class="text-muted">En Inventario: 10</small>
+                          </div>
+                      </div>
+                  </div>      
+                </div>  
+                
+                <div> 
+  
+              
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <a href="http://www.baltana.com/food/cheesecake-background-wallpaper-03399.html">
+                              <img  class="bd-placeholder-img card-img-top"  src="http://www.baltana.com/imagecache/thumbnails/3617/290x180.png" title="Cheesecake Background Wallpaper 03399"  alt="Cheesecake Background Wallpaper 03399" >
+                            </a>
+              
+                            <div class="card-body">
+                                <p class="card-text">Producto</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                      <button type="button" class="btn btn-sm btn-outline-secondary">-</button>
+                                      <input type="text" class="inputsmall" placeholder="1">
+                                      <button type="button" class="btn-sm">+</button>
+                                    
+                                   </div>
+                                  <small class="text-muted">$0.00</small>
+                                  <small class="text-muted"><button type="button" class="btn-sm"><img class="btn--img" src="../assets/icons8-delete-bin-60.png" alt="x" /></button></small>
+
+                                </div>
+                              </div>
+                        </div>      
+                    </div>
+              
+                    
+                </div>
+                
+                <div> 
+                   
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <a href="http://www.baltana.com/food/cheesecake-background-wallpaper-03399.html">
+                              <img  class="bd-placeholder-img card-img-top"  src="http://www.baltana.com/imagecache/thumbnails/3617/290x180.png" title="Cheesecake Background Wallpaper 03399"  alt="Cheesecake Background Wallpaper 03399" >
+                            </a>
+              
+                            <div class="card-body">
+                                <p class="card-text"></p>
+                                <h2>Datos del Producto</h2>
+                                <form class="producto__container--form">
+                                    <label class="label-form">Nombre del Producto </label>
+                                    <input class="input-form" type="text" placeholder="" />
+                                    
+                                    <label class="label-form">Código del Producto </label>
+                                     <input class="input-form" type="text" placeholder="" />
+
+                                     <label class="label-form">Precio</label>   
+                                     <input class="input-form" type="number" placeholder="" />
+
+                                    <label class="label-form">Unidad</label>  
+                                    <select class="input-form cbo"  name="transporte" aria-placeholder="Unidad">
+                                        <option value="" disabled selected></option>
+                                        <option value="1">Pieza</option>
+                                        <option value ="2">Kilos</option>
+                                    </select>
+                                    
+                                    <label class="label-form">Cantidad</label>
+                                    <input class="input-form" type="number" placeholder="" />
+
+                                    <div class="btn-group">
+                                        <button type="button" class="btn-sm"><img class="btn--img" src="../assets/icons8-save-tabs-list-50.png" alt="Modificar Producto" /></button>
+                                        <button type="button" class="btn-sm"><img class="btn--img" src="../assets/icons8-delete-60.png" alt="Modificar Producto" /></button>
+                                   </div>
+                                                                       
+                                  </form>
+                              </div>
+                        </div>      
+                    </div>
+                   
+              
+                  
+                </div>
+                
+
+                                     
+              
+              </section>
+            
+          </div>
+      </div>
+
+      <div class="panel panel-default">
+          <div class="panel-body">
+              
+                <ul style="list-style-type: none">
+                    <li >
+                      <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <a href="http://www.baltana.com/food/cheesecake-03406.html">
+                              <img class="bd-placeholder-img card-img-top" src="http://www.baltana.com/imagecache/thumbnails/3485/290x180.png" title="Cheesecake 03406" alt="Cheesecake 03406">
+                            </a>
+              
+                            <div class="card-body">
+                                <p class="card-text">Producto</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                  <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary"><img class="btn--img" src="../assets/add-icon.png" alt="x" /></button>
+                                    <input type="text" class="inputsmall" placeholder="1">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary"><img class="btn--img" src="../assets/reduce-icon.png" alt="x" /></button>
+                                   </div>
+                                  <small class="text-muted">$0.00</small>
+                                </div>
+                              </div>
+                        </div>      
+                    </div>  
+                  </li>
+                  <li >
+                      <div class="col-md-4">
+                          <div class="card mb-4 shadow-sm">
+                              <a href="http://www.baltana.com/food/cheesecake-03406.html">
+                                <img class="bd-placeholder-img card-img-top" src="http://www.baltana.com/imagecache/thumbnails/3485/290x180.png" title="Cheesecake 03406" alt="Cheesecake 03406">
+                              </a>
+                
+                              <div class="card-body">
+                                  <p class="card-text">Producto</p>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                      <button type="button" class="btn btn-sm btn-outline-secondary"><img class="btn--img" src="../assets/add-icon.png" alt="x" /></button>
+                                      <input type="text" class="inputsmall" placeholder="1">
+                                      <button type="button" class="btn btn-sm btn-outline-secondary"><img class="btn--img" src="../assets/reduce-icon.png" alt="x" /></button>
+                                     </div>
+                                    <small class="text-muted">$0.00</small>
+                                  </div>
+                                </div>
+                          </div>      
+                      </div>  
+                  </li>
+                  <li >
+                      
+                  </li>
+                
+                  </ul>
+          </div>
+      </div>
+     
+  </section>
+ 
+  
+ 
+  
+
+  
+  <footer class="footer">
+    <a href="/">Terminos de uso</a>
+    <a href="/">Declaración de privacidad</a>
+    <a href="/">Centro de ayuda</a>
+  </footer>
+</body>
+</html>
